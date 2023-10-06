@@ -6,42 +6,37 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
+
+main {
     height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 
-    main {
-        
+    section {
         height: 100vh;
-        scroll-snap-type: mandatory;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
 
-        section {
-            
-            height: 100vh;
+        scroll-snap-align: start;
+        
+    }
 
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-
-            scroll-snap-align: start;
-
-        }
-
-        .sec1 {
-            background-color: aqua;
-        }
-        .sec2 {
-            background-color: azure;
-        }
-        .sec3 {
-            background-color: black;
-        }
-        .sec4 {
-            background-color: blue;
-        }
-        .sec5 {
-            background-color: chocolate;
-        }
+    .sec1 {
+        background-color: aqua;
+    }
+    .sec2 {
+        background-color: azure;
+    }
+    .sec3 {
+        background-color: black;
+    }
+    .sec4 {
+        background-color: blue;
+    }
+    .sec5 {
+        background-color: chocolate;
     }
 }
