@@ -1,12 +1,22 @@
 @charset 'UTF-8';
 
-main {
-    width: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    section {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        
-    }
+body {
+    width: 100vw;
+    height: 100vh;
+    main {
+        width: 100vw;
+
+        section {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+    }   
 }
