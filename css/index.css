@@ -16,6 +16,9 @@ main section {
   justify-content: center;
   text-align: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
   scroll-snap-align: start;
 }
 main .sec1 {
