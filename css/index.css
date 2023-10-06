@@ -9,11 +9,29 @@ body {
   height: 100vh;
 }
 body main {
-  width: 100vw;
   height: 100vh;
+  scroll-snap-type: mandatory;
 }
 body main section {
+  height: 100vh;
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+body main .sec1 {
+  background-color: aqua;
+}
+body main .sec2 {
+  background-color: azure;
+}
+body main .sec3 {
+  background-color: black;
+}
+body main .sec4 {
+  background-color: blue;
+}
+body main .sec5 {
+  background-color: chocolate;
 }/*# sourceMappingURL=index.css.map */

@@ -11,14 +11,37 @@ body {
     height: 100vh;
 
     main {
-        width: 100vw;
-        height: 100vh;
         
+        height: 100vh;
+        scroll-snap-type: mandatory;
+
         section {
+            
+            height: 100vh;
+
             display: flex;
             justify-content: center;
             text-align: center;
+            align-items: center;
+
+            scroll-snap-align: start;
 
         }
-    }   
+
+        .sec1 {
+            background-color: aqua;
+        }
+        .sec2 {
+            background-color: azure;
+        }
+        .sec3 {
+            background-color: black;
+        }
+        .sec4 {
+            background-color: blue;
+        }
+        .sec5 {
+            background-color: chocolate;
+        }
+    }
 }
