@@ -6,16 +6,13 @@
 
 header {
   position: relative;
+  z-index: 20;
   width: 100vw;
 }
-header nav {
-  position: fixed;
+header div {
   background-color: black;
-  top: 0;
-  left: 0;
-  height: 60px;
-  width: 98.9vw;
-  z-index: 1;
+  position: absolute;
+  width: 100vw;
 }
 
 main {
