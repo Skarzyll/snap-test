@@ -6,13 +6,26 @@
     box-sizing: border-box;
 }
 
+header {
+    position: relative;
+    width: 100vw;
 
+    nav {
+        position: fixed;
+        background-color: black;
+        top: 0;
+        left: 0;
+        height: 60px;
+        width: 98.9vw;
+        z-index: 1;
+    }
+}
 
 main {
     height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-
+    
     section {
         height: 100vh;
         color: white;
