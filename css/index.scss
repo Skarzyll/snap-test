@@ -6,6 +6,20 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: -10;
+    height: 100px;
+    width: 100vw;
+    
+    div {
+        background-color: black;
+    }
+}
 
 main {
     height: 100vh;
