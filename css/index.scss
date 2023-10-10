@@ -6,19 +6,6 @@
     box-sizing: border-box;
 }
 
-header {
-    position: relative;
-    z-index: 20;
-    width: 100vw;
-
-    div {
-        background-color: black;
-        position: absolute;
-        width: 100vw;
-
-    }
-}
-
 main {
     height: 100vh;
     scroll-snap-type: y mandatory;
